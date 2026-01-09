@@ -1,0 +1,58 @@
+.available-jobs {
+  padding: 30px 0;
+}
+.available-jobs .heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.heading .heading_one .heading {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+.heading .heading_one .sub_heading {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.heading .heading_two a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #309689;
+}
+/*  */
+.job_post {
+  background: #ffffff;
+  box-shadow: 0px 3px 8px rgba(48, 150, 137, 0.08);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.job_post .job_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.job_post .job_body {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 16px 0;
+}
+.job_body .job_img img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.job_post .job_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.job_footer .details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

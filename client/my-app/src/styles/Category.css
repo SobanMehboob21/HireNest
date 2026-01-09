@@ -1,0 +1,44 @@
+.category {
+  background: #ebf5f4;
+  padding: 60px 0;
+}
+.category .header_category {
+  text-align: center;
+}
+.header_category .heding {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+}
+.header_category .sub_heading {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.category .category_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 40px 20px;
+  background: #ffffff;
+  box-shadow: 0px 3px 8px rgba(48, 150, 137, 0.05);
+  border-radius: 20px;
+}
+.category_card .category_type {
+  font-size: 40px;
+}
+.category_card .category_info {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+.category_card .category_jobs {
+  font-size: 16px;
+  font-weight: 400;
+  color: #309689;
+  background: rgba(48, 150, 137, 0.1);
+  border-radius: 8px;
+  padding: 5px;
+}
