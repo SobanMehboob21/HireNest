@@ -1,3 +1,6 @@
+.nav-bar{
+  background: #000;
+}
 .header ul {
   display: flex;
   align-items: center;
@@ -60,7 +63,7 @@
 
 /* Buttons */
 
-.header .d_btn {
+.nav-bar .d_btn {
   border-radius: 8px;
   padding: 10px;
   margin-left: 10px;

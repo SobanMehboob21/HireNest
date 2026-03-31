@@ -1,13 +1,24 @@
-import React from 'react'
-import Header from '../components/Header'
+
+import Header from "../components/Header";
+import { Jobs } from "./Jobs";
+import { Category } from "./Category";
+import { Details } from "./Details";
+import Testimonial from "./Testimonial";
+import { News } from "./News";
+
 
 const Home = () => {
   return (
     <>
-    <Header />
     
-    </>
-  )
-}
+      <Header />
+      <Jobs />
+      <Category />
+      <Details />
+      <Testimonial />
+      <News />
+          </>
+  );
+};
 
-export default Home
+export default Home;

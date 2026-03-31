@@ -1,4 +1,4 @@
-import React from "react";
+
 import CategoryData from "../CategoryData.ts";
 import "../styles/Category.css";
 

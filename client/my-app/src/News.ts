@@ -1,4 +1,4 @@
-import img_badge from "../../my-app/src/assets/img_badge.webp";
+import img_badge from "./assets/img_badge.webp";
 
 const NewsData = [
   {

@@ -1,4 +1,4 @@
-import React from "react";
+
 import NewsData from "../News";
 import "../styles/News.css";
 

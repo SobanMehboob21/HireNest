@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+      - name: backend
+        image: soban11776/hirenest-server:latest
+        ports:
+        - containerPort: 5000
+        imagePullPolicy: Always
+        env:
+        - name: MONGO_URI
+          value: mongodb://mongodb:27017/hirenest

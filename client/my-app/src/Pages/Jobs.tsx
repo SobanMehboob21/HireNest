@@ -1,9 +1,10 @@
-
+import { useNavigate } from "react-router-dom";
 import MyData from "../Data";
 import "../styles/Jobs.css";
 
 export const Jobs = () => {
-   const dataToShow = MyData.slice(0, 5);
+  const dataToShow = MyData.slice(0, 5);
+  const navigate = useNavigate();
   return (
     <>
       <section className="available-jobs">
@@ -24,7 +25,7 @@ export const Jobs = () => {
               </div>
             </div>
             <div className="col-lg-12">
-              {dataToShow.length > 0  ? (
+              {dataToShow.length > 0 ? (
                 <>
                   {dataToShow.map((item) => (
                     <>
@@ -68,7 +69,12 @@ export const Jobs = () => {
                             </div>
                           </div>
 
-                          <button className="d_btn">Job Details</button>
+                          <button
+                            className="d_btn"
+                            onClick={() => navigate(`/job-detail/${item.id}`)}
+                          >
+                            Job Details
+                          </button>
                         </div>
                       </div>
                     </>

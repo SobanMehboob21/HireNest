@@ -1,4 +1,4 @@
-import React from "react";
+
 import quotes from "../assets/quotes.webp";
 import avatar from "../assets/avatar.webp";
 import Review from "../Reviews.ts";
